@@ -1,0 +1,135 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Nguyen Thanh Quan",
+    "label": "Software Engineer",
+    "image": "https://user-images.githubusercontent.com/35368650/201533664-eff2e360-1917-410f-815e-2e18cc07f954.jpeg",
+    "email": "nt.quan1704@gmail.com",
+    "phone": "(+84) 904 751 868",
+    "url": "",
+    "summary": "Software engineer with more than 6 years experience in building large scale system and microservices for e-commerce and digital marketing system. Proven ability to design architecture and involve in full cycle of software development to solve user's problem.",
+    "location": {
+      "city": "Ho Chi Minh City"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "Quan Nguyen",
+        "url": "https://www.linkedin.com/in/quan-nguyen-thanh-7a3242128/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ShopBack",
+      "location": "Ho Chi Minh City",
+      "description": "ShopBack is an e-commerce company leading in cashback reward in APAC with intensive traffic across both website and mobile application.",
+      "position": "Senior Software Engineer (Technical Lead)",
+      "url": "http://www.shopback.sg",
+      "startDate": "2018-08-01",
+      "endDate": "now",
+      "highlights": [
+        "Take part in migrating robust monolithic application to microservices.",
+        "Own and responsible for designing, developing, maintaining core services which are integrated with external third party systems like Salesforce, HasOffers for merchant on-boarding, product listing, cashback calculation to handle million active users across 9 countries.",
+        "Lead a team with 4 engineers. Plan and improve working process with team members. Communicate with stakeholders to achieve product goals with clear documentation.",
+        "Involve in recruitment process as Technical Interviewer to hire qualified candidate with company's core values.",
+        "Write scalable, well-documented, fully tested API for internal services.",
+        "Write CICD pipelines, tools, libraries, set up projects from scratch to develop application with ease.",
+        "Involved technologies: NodeJS, Typescript, MySQL, MongoDB, Redis, AWS services, Kubernetes,..."
+      ]
+    },
+    {
+      "name": "Knorex",
+      "location": "Ho Chi Minh City",
+      "description": "Knorex is a digital marketing company which provides programmatic advertising products and technologies to attract buyers worldwide.",
+      "position": "Software Engineer",
+      "url": "http://www.knorex.com",
+      "startDate": "2016-04-01",
+      "endDate": "2018-08-01",
+      "highlights": [
+        "Develop,maintainaplatformwhichhelpsmarketers,operationstocreateads themselves and build optimized ads to serve for million users across APAC.",
+        "Design, develop, maintain a platform which is a set of crawlers for extracting data from external websites to provide dynamic information within ads and creatives.",
+        "Write API for other services integration.",
+        "Technologies: HTML, CSS, AngularJS, NodeJS, Golang, MongoDB, AWS Services (S3, SQS, Elastic Transcoder, EC2,...), Mesos, Chronos,..."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ho Chi Minh University of Technology",
+      "url": "https://www.hcmut.edu.vn/",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2011-08-01",
+      "endDate": "2016-04-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Golang",
+        "Javascript",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SASS/LESS",
+        "AngularJs",
+        "Webpack/GruntJs"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "JavaScript",
+        "Typescript",
+        "Golang"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "DynamoDB"
+      ]
+    },
+    {
+      "name": "Infrastructures",
+      "keywords": [
+        "Kubernetes",
+        "Terraform",
+        "Jenkins",
+        "Helm",
+        "TravisCI"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "AWS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Vietnamese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
