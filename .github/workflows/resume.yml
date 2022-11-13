@@ -22,7 +22,7 @@ jobs:
           theme: kendall
           resume_filepath: resume.json
           output_filepath: docs/index.html
-      - uses: constructorfleet/action-jsonresume-export@v1
+      - uses: constructorfleet/action-jsonresume-export@v1.1
         name: Export resume as PDF
         with:
           theme: flat
