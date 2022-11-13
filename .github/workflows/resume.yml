@@ -22,12 +22,13 @@ jobs:
           theme: kendall
           resume_filepath: resume.json
           output_filepath: docs/index.html
-      - uses: kelvintaywl/action-jsonresume-export@v1
+      - uses: constructorfleet/action-jsonresume-convert@v1
         name: Export resume as PDF
         with:
           theme: kendall
           resume_filepath: resume.json
           output_filepath: docs/resume.pdf
+          output_format: pdf
       - name: Commit published HTML
         id: commit
         run: |
