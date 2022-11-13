@@ -25,7 +25,7 @@ jobs:
       - uses: constructorfleet/action-jsonresume-export@v1
         name: Export resume as PDF
         with:
-          theme: kendall
+          theme: flat
           resume_filepath: resume.json
           output_filepath: docs/resume.pdf
           output_format: pdf
@@ -34,9 +34,21 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain docs)" ]; then
-            git add docs/
-            git commit -m "[ci skip] chore(docs/): update resume page"
+          if [ -n "$(git status --porcelain docs/index.html)" ]; then
+            git add docs/index.html
+            git commit -m "[ci skip] chore(docs/index.html): update resume page"
+            echo ::set-output name=exit_code::0
+          else
+            echo ::set-output name=exit_code::1
+          fi
+      - name: Commit published PDF
+        id: commit-pdf
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -n "$(git status --porcelain docs/resume.pdf)" ]; then
+            git add docs/resume.pdf
+            git commit -m "[ci skip] chore(docs/resume.pdf): update resume page"
             echo ::set-output name=exit_code::0
           else
             echo ::set-output name=exit_code::1
