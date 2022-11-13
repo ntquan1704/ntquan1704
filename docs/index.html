@@ -1,622 +1,604 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Nguyen Thanh Quan</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-  <title>Nguyen Thanh Quan</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <style>/* Utils */
-/*----- Colors -----*/
-/*----- Fonts -----*/
-/*----- Dimensions and sizes -----*/
-/* Base */
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+  color: #363636;
+  background: #334960;
 }
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
-}
-
-html {
-  background: white;
-}
-
-body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  background: white;
-  margin: 50px 0 100px;
-  letter-spacing: .3px;
-  color: #39424B;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: none;
-  margin: 0;
-}
-
-h1 {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  letter-spacing: 1px;
-}
-
-h2 {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  letter-spacing: .5px;
-}
-
-h3 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: .4px;
-}
-
-h3.bold {
-  font-weight: 700;
-}
-
-h4 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-}
-
-h4.bold {
-  font-weight: 700;
-}
-
-h5 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 11px;
-}
-
-h5.italic {
-  font-style: italic;
-}
-
-h6 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 10px;
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #2895F1;
-}
-
-a .fa-external-link {
-  font-size: 10px;
-  vertical-align: text-top;
-}
-
-p,
-li {
-  font-size: 11px;
-}
-
 blockquote {
-  font-size: 11px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  margin: 10px 25px;
+  font-size: 1em;
 }
 
-em {
-  color: #999;
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
 }
 
-ul {
-  margin: 10px 0 0;
-  -webkit-padding-start: 25px;
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
 }
 
-ul li {
-  padding-left: 10px;
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-ul.minimal {
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
   list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
   padding: 0;
 }
 
-ul.minimal li {
-  margin-bottom: 3px;
-  padding-left: 0;
-}
-
-ul.two-column {
-  -webkit-column-count: 2;
-  -webkit-column-gap: 28px;
-  column-count: 2;
-  column-gap: 28px;
-}
-
-ul.two-column li {
-  padding-left: 0;
-}
-
-@page {
-  size: A4;
-}
-
-.container {
-  padding-top: 20px;
-}
-
-.keyline {
-  width: 45px;
-  margin: 8px 0 10px;
-  border-top: 1px solid #56817A;
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.profile-pic {
-  margin-top: -5px;
-  margin-right: 18px;
-}
-
-.profile-pic img {
-  height: 52px;
-  width: 52px;
-  border-radius: 50%;
-  border: 2px solid #56817A;
-}
-
-.summary {
-  margin: 5px 0 5px;
-}
-
-.sublink {
-  font-size: 70%;
-  font-weight: 200;
-  color: dimgray;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-/* Layouts */
-.page {
-  background: white;
-  width: 612px;
-  min-height: 792px;
-  display: block;
-  margin: 0 auto;
-  border-top: 10px solid #56817A;
-  padding: 36px 22px 30px 34px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-}
-
-.page:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.left-column {
-  float: left;
-  width: 160px;
-  margin-right: 20px;
-  word-wrap: break-word;
-}
-
-.right-column {
-  width: auto;
-  overflow: hidden;
-}
-
-.item {
+.job{
   margin-bottom: 15px;
 }
-
-.item:last-child {
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
   margin-bottom: 0;
 }
-
-@media print {
-  body {
-    margin: 0;
-  }
-
-  .page {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 36px 0 30px;
-    box-shadow: none;
-  }
-
-  .page .resume-header,
-  .page .resume-content {
-    padding: 0 22px 0 34px;
-  }
-
-  .container {
-    page-break-inside: avoid;
-  }
-
-  .work-container .item {
-    page-break-inside: avoid;
-  }
-
-  .fa-external-link {
-    display: none;
-  }
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
 }
 
-/* Components */
-.info-tag-container {
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
   margin-bottom: 5px;
 }
 
-.info-tag-container .fa {
-  font-size: 14px;
-  width: 12px;
-  margin-right: 5px;
-  text-align: center;
-  vertical-align: middle;
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
 }
 
-.info-tag-container .fa.fa-map-marker {
-  font-size: 16px;
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
 }
 
-.info-tag-container .fa.fa-mobile {
-  font-size: 18px;
+.badge {
+  margin: 0;
 }
 
-.info-tag-container .fa.fa-envelope-o {
-  font-size: 12px;
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
 }
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
 
-.info-tag-container .fa.fa-desktop {
-  font-size: 11px;
-}
-
-.info-tag-container .fa.fa-external-link {
-  width: auto;
-  font-size: inherit;
-  vertical-align: text-top;
-}
-
-.info-tag-container .info-text {
-  font-size: 12px;
-  text-transform: none;
-  display: inline-block;
-  vertical-align: middle;
-  width: 139px;
-}
-
-.references-container .fa {
-  font-size: 14px;
-}
-
-.education-container .location {
-  padding-bottom: 6px;
-  font-weight: 400;
-}
-
-.education-container .specialization {
-  text-transform: none;
-  font-style: italic;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.main-skill {
-  font-size: 80%;
-}
-
-.skill {
-  margin: .15em;
-  padding: .15em;
-  background: ghostwhite;
-  border-radius: 5px;
-}
-</style>
-</head>
-
-<body>
-  <main id="resume" class="page">
-    <header class="resume-header clearfix">
-        <div class="profile-header pull-left">
-            <h1>Nguyen Thanh Quan</h1>
-            <h2>Software Engineer</h2>
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;user-images.githubusercontent.com&#x2F;35368650&#x2F;201533664-eff2e360-1917-410f-815e-2e18cc07f954.jpeg" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Nguyen Thanh Quan<br><span>Software Engineer</span></h1>
+            </div>
+          </div>
         </div>
-        <div class="profile-pic pull-right">
-        </div>
-    </header>
-    <div class="resume-content">
-      <aside class="left-column">
-        <div class="container about-container">
-            <div class="title">
-                <h3>About</h3>
-                <div class="keyline"></div>
-            </div>
-                <div class="info-tag-container">
-                    <i class="fa fa-map-marker"></i>
-                
-                        <h6 class="info-text"> Ho Chi Minh City   </h6>
-                </div>
-        
-        
-                <div class="info-tag-container">
-                    <i class="fa fa-envelope-o"></i>
-                
-                        <h6 class="info-text">
-                            <a href="mailto:nt.quan1704@gmail.com" target="_blank">
-                                nt.quan1704@gmail.com
-                            </a>
-                        </h6>
-                </div>
-        
-                <div class="info-tag-container">
-                    <i class="fa fa-mobile"></i>
-                
-                        <h6 class="info-text">(+84) 904 751 868</h6>
-                </div>
-        
-        
-                                <div class="info-tag-container">
-                                    <i class="fa fa-linkedin-square"></i>
-                                
-                                        <h6 class="info-text">
-                                            <a href="https://www.linkedin.com/in/quan-nguyen-thanh-7a3242128/" target="_blank">
-                                                Quan Nguyen
-                                            </a>
-                                        </h6>
-                                </div>
-        </section>
-            <div class="skills-container">
-                    <section class="container">
-                            <div class="title">
-                                <h3>Languages</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">Golang</h6>
-                                    <h6 class="main-skill skill">Javascript</h6>
-                                    <h6 class="main-skill skill">Typescript</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Frontend</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">HTML</h6>
-                                    <h6 class="main-skill skill">CSS</h6>
-                                    <h6 class="main-skill skill">SASS/LESS</h6>
-                                    <h6 class="main-skill skill">AngularJs</h6>
-                                    <h6 class="main-skill skill">Webpack/GruntJs</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Languages</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">JavaScript</h6>
-                                    <h6 class="main-skill skill">Typescript</h6>
-                                    <h6 class="main-skill skill">Golang</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Databases</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">MySQL</h6>
-                                    <h6 class="main-skill skill">MongoDB</h6>
-                                    <h6 class="main-skill skill">Redis</h6>
-                                    <h6 class="main-skill skill">DynamoDB</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Infrastructures</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">Kubernetes</h6>
-                                    <h6 class="main-skill skill">Terraform</h6>
-                                    <h6 class="main-skill skill">Jenkins</h6>
-                                    <h6 class="main-skill skill">Helm</h6>
-                                    <h6 class="main-skill skill">TravisCI</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Cloud</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">AWS</h6>
-                            </div>
-                    </section>
-            </div>
-            <div class="container languages-container">
-                <div class="title">
-                    <h3>Languages</h3>
-                    <div class="keyline"></div>
-                </div>
-                <ul class="minimal">
-                        <li>
-                            <h6>English <em>(Intermediate)</em></h6>
-                        </li>
-                        <li>
-                            <h6>Vietnamese <em>(Native speaker)</em></h6>
-                        </li>
-                </ul>
-            </div>
-      </aside>
-      <div class="right-column">
-                <div class="container summary-container">
-                    <div class="title">
-                        <h3>Summary</h3>
-                        <div class="keyline"></div>
-                    </div>            <p class="summary">
-                        Software engineer with more than 6 years experience in building large scale system and microservices for e-commerce and digital marketing system. Proven ability to design architecture and involve in full cycle of software development to solve user&#x27;s problem.
-                    </p>
-                </div>
-        <div class="container work-container">
-            <div class="title">
-                <h3>Experience</h3>
-                <div class="keyline"></div>
-            </div>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">08/2018</span>
-                                <span class="endDate"> - Invalid date</span>
-                        </h5>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>Software engineer with more than 6 years experience in building large scale system and microservices for e-commerce and digital marketing system. Proven ability to design architecture and involve in full cycle of software development to solve user's problem.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      ShopBack
+                      <div class="pull-right">
+                        Ho Chi Minh City
+                      </div>
                     </div>
-                      <h4>
-                        ShopBack is an e-commerce company leading in cashback reward in APAC with intensive traffic across both website and mobile application.
-                      </h4>
-        
-                    <h4>Senior Software Engineer (Technical Lead)</h4>
-        
-        
-        
-                    <ul>
-                        <li>Take part in migrating robust monolithic application to microservices.</li>
-                        <li>Own and responsible for designing, developing, maintaining core services which are integrated with external third party systems like Salesforce, HasOffers for merchant on-boarding, product listing, cashback calculation to handle million active users across 9 countries.</li>
-                        <li>Lead a team with 4 engineers. Plan and improve working process with team members. Communicate with stakeholders to achieve product goals with clear documentation.</li>
-                        <li>Involve in recruitment process as Technical Interviewer to hire qualified candidate with company&#x27;s core values.</li>
-                        <li>Write scalable, well-documented, fully tested API for internal services.</li>
-                        <li>Write CICD pipelines, tools, libraries, set up projects from scratch to develop application with ease.</li>
-                        <li>Involved technologies: NodeJS, Typescript, MySQL, MongoDB, Redis, AWS services, Kubernetes,...</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">04/2016</span>
-                                <span class="endDate"> - 08/2018</span>
-                        </h5>
+                    <div class="description">
+                      ShopBack is an e-commerce company leading in cashback reward in APAC with intensive traffic across both website and mobile application.
                     </div>
-                      <h4>
-                        Knorex is a digital marketing company which provides programmatic advertising products and technologies to attract buyers worldwide.
-                      </h4>
-        
-                    <h4>Software Engineer</h4>
-        
-        
-        
-                    <ul>
-                        <li>Develop,maintainaplatformwhichhelpsmarketers,operationstocreateads themselves and build optimized ads to serve for million users across APAC.</li>
-                        <li>Design, develop, maintain a platform which is a set of crawlers for extracting data from external websites to provide dynamic information within ads and creatives.</li>
-                        <li>Write API for other services integration.</li>
-                        <li>Technologies: HTML, CSS, AngularJS, NodeJS, Golang, MongoDB, AWS Services (S3, SQS, Elastic Transcoder, EC2,...), Mesos, Chronos,...</li>
-                    </ul>
-                </section>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;www.shopback.sg" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;www.shopback.sg</a>
+                    </div>
+                    <div class="year">August 2018 – now</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Software Engineer (Technical Lead)</div>
+                    <div class="description">
+                      
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Take part in migrating robust monolithic application to microservices.</li>
+                        <li class="list-group-item">Own and responsible for designing, developing, maintaining core services which are integrated with external third party systems like Salesforce, HasOffers for merchant on-boarding, product listing, cashback calculation to handle million active users across 9 countries.</li>
+                        <li class="list-group-item">Lead a team with 4 engineers. Plan and improve working process with team members. Communicate with stakeholders to achieve product goals with clear documentation.</li>
+                        <li class="list-group-item">Involve in recruitment process as Technical Interviewer to hire qualified candidate with company's core values.</li>
+                        <li class="list-group-item">Write scalable, well-documented, fully tested API for internal services.</li>
+                        <li class="list-group-item">Write CICD pipelines, tools, libraries, set up projects from scratch to develop application with ease.</li>
+                        <li class="list-group-item">Involved technologies: NodeJS, Typescript, MySQL, MongoDB, Redis, AWS services, Kubernetes,...</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Knorex
+                      <div class="pull-right">
+                        Ho Chi Minh City
+                      </div>
+                    </div>
+                    <div class="description">
+                      Knorex is a digital marketing company which provides programmatic advertising products and technologies to attract buyers worldwide.
+                    </div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;www.knorex.com" target= "_blank"><i class="fas fa-globe ico"></i> http:&#x2F;&#x2F;www.knorex.com</a>
+                    </div>
+                    <div class="year">April 2016 – August 2018</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Develop,maintainaplatformwhichhelpsmarketers,operationstocreateads themselves and build optimized ads to serve for million users across APAC.</li>
+                        <li class="list-group-item">Design, develop, maintain a platform which is a set of crawlers for extracting data from external websites to provide dynamic information within ads and creatives.</li>
+                        <li class="list-group-item">Write API for other services integration.</li>
+                        <li class="list-group-item">Technologies: HTML, CSS, AngularJS, NodeJS, Golang, MongoDB, AWS Services (S3, SQS, Elastic Transcoder, EC2,...), Mesos, Chronos,...</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="container education-container">
-            <div class="title">
-            <h3>Education</h3>
-            <div class="keyline"></div>
-        </div> 
-            <section class="item">
-                <div class="section-header clearfix">
-            <h3 class="bold pull-left">
-                    Ho Chi Minh University of Technology
-            </h3>
-            <h5 class="italic pull-right">
-                    <span class="startDate">08/2011</span>
-                    <span class="endDate"> - 04/2016</span>
-            </h5>
-        </div>
-         
-                <h4>Bachelor Computer Engineering</h4>
-        
-              </section>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              
+              <div class="title only  pull-right">Ho Chi Minh City</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">(+84) 904 751 868</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:nt.quan1704@gmail.com" target="_blank">nt.quan1704@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">Linkedin</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;quan-nguyen-thanh-7a3242128&#x2F;" target="_blank">Quan Nguyen</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2011 2016</div>
+                <div class="description pull-right">
+                  <h3>Ho Chi Minh University of Technology</h3>
+                  <div class="where"></div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;www.hcmut.edu.vn&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.hcmut.edu.vn&#x2F;</a>
+                  </div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Bachelor</p>
+                  <p>Computer Engineering</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Languages
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Golang</span>
+                <span class= "skill badge">Javascript</span>
+                <span class= "skill badge">Typescript</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Frontend
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">HTML</span>
+                <span class= "skill badge">CSS</span>
+                <span class= "skill badge">SASS/LESS</span>
+                <span class= "skill badge">AngularJs</span>
+                <span class= "skill badge">Webpack/GruntJs</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Languages
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">JavaScript</span>
+                <span class= "skill badge">Typescript</span>
+                <span class= "skill badge">Golang</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Databases
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">MySQL</span>
+                <span class= "skill badge">MongoDB</span>
+                <span class= "skill badge">Redis</span>
+                <span class= "skill badge">DynamoDB</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Infrastructures
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Kubernetes</span>
+                <span class= "skill badge">Terraform</span>
+                <span class= "skill badge">Jenkins</span>
+                <span class= "skill badge">Helm</span>
+                <span class= "skill badge">TravisCI</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Cloud
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">AWS</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </main>
-</body>
 
+  </body>
 </html>
