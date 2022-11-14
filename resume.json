@@ -68,9 +68,9 @@
     {
       "name": "Languages",
       "keywords": [
-        "Golang",
-        "Javascript",
-        "Typescript"
+        "JavaScript",
+        "Typescript",
+        "Golang"
       ]
     },
     {
@@ -81,14 +81,6 @@
         "SASS/LESS",
         "AngularJs",
         "Webpack/GruntJs"
-      ]
-    },
-    {
-      "name": "Languages",
-      "keywords": [
-        "JavaScript",
-        "Typescript",
-        "Golang"
       ]
     },
     {
