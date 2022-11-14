@@ -35,7 +35,7 @@
         "Involve in recruitment process as Technical Interviewer to hire qualified candidate with company's core values.",
         "Write scalable, well-documented, fully tested API for internal services.",
         "Write CICD pipelines, tools, libraries, set up projects from scratch to develop application with ease.",
-        "Involved technologies: NodeJS, Typescript, MySQL, MongoDB, Redis, AWS services, Kubernetes,..."
+        "Involved technologies: NodeJS, TypeScript, MySQL, MongoDB, Redis, AWS services, Kubernetes,..."
       ]
     },
     {
@@ -69,7 +69,7 @@
       "name": "Languages",
       "keywords": [
         "JavaScript",
-        "Typescript",
+        "TypeScript",
         "Golang"
       ]
     },
