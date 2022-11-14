@@ -16,7 +16,7 @@ jobs:
     needs: check_run
     steps:
       - uses: actions/checkout@v2
-      - uses: rvdwegen/action-jsonresume-convert@v0.1.6-alpha
+      - uses: ntquan/action-jsonresume-convert@v1
         name: Export resume as HTML
         with:
           theme: kendall
