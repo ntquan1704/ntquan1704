@@ -107,6 +107,13 @@
       "keywords": [
         "AWS"
       ]
+    },
+    {
+      "name": "Others",
+      "keywords": [
+        "NestJS",
+        "Git"
+      ]
     }
   ],
   "languages": [
