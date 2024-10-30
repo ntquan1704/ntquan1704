@@ -66,7 +66,7 @@
       "startDate": "2016-04-01",
       "endDate": "2018-08-01",
       "highlights": [
-        "Develop,maintainaplatformwhichhelpsmarketers,operationstocreateads themselves and build optimized ads to serve for million users across APAC.",
+        "Develop, maintain platform which helps marketers, operations to create ads themselves and build optimized ads to serve for million users across APAC.",
         "Design, develop, maintain a platform which is a set of crawlers for extracting data from external websites to provide dynamic information within ads and creatives.",
         "Write API for other services integration.",
         "Technologies: HTML, CSS, AngularJS, NodeJS, Golang, MongoDB, AWS Services (S3, SQS, Elastic Transcoder, EC2,...), Mesos, Chronos,..."
